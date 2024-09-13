@@ -1,0 +1,149 @@
+*{
+    box-sizing: border-box;
+    font-family: "Marcellus", serif;
+    font-family: "Plaster", system-ui;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-family: "Pathway Extreme", sans-serif;
+}
+main{
+    width: 1366px;
+    height: 2000px;
+    background-color: rgb(216, 215, 190);
+    margin: 0 auto;
+}
+header{
+    width: 1366px;
+    height: 257px;
+    background-color: rgb(192, 194, 206);
+    display: flex;
+}
+header p{
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 40px;
+    margin-left: 20px;
+}
+nav{
+    width: 1366px;
+    height: 90px;
+    background-color: rgb(180, 114, 116);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    overflow: hidden;
+    position: sticky;
+    top: 0px;
+}
+nav a{
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 90px;
+    font-family: "Plaster", system-ui;
+    font-size: 23px;
+    transition: 1s;
+}
+nav a:hover{
+    background-color: rgb(181, 59, 59);
+    transform: scale(1.2);
+}
+section{
+    width: 1366px;
+    height: 1500px;
+    background-size: cover;
+    background-position: center;
+    margin-top: 20px;
+    gap: 13px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+section .Erik{
+    width: 331px;
+    height: 540px;
+    box-shadow: 10px 6px 37px -13px rgba(51, 51, 51, 0.74);
+    border-radius: 10px;
+    background-color: rgb(123, 186, 141, 0.777);
+}
+.Erik .foto{
+    margin-left: 100px;
+    margin-top: 10px;
+}
+section .Julie{
+    width: 331px;
+    height: 540px;
+    box-shadow: 10px 6px 37px -13px rgba(51, 51, 51, 0.74);
+    border-radius: 10px;
+    background-color: rgb(130, 163, 205, 0.777);
+}
+.Julie .foto{
+    margin-left: 100px;
+    margin-top: 20px;
+}        
+section .Rebeca{
+    width: 331px;
+    height: 540px;
+    box-shadow: 10px 6px 37px -13px rgba(51, 51, 51, 0.74);
+    border-radius: 10px;
+    background-color: rgb(208, 115, 116, 0.777);
+}
+.Rebeca .foto{
+    margin-left: 100px;
+    margin-top: 10px;
+}
+section .Michael{
+    width: 331px;
+    height: 540px;
+    box-shadow: 10px 6px 37px -13px rgba(51, 51, 51, 0.74);
+    border-radius: 10px;
+    background-color: rgb(197, 126, 185, 0.777);
+}
+.Michael .foto{
+    margin-left: 100px;
+    margin-top: 20px;
+}
+section .fecha{
+    font-family: "Pathway Extreme", sans-serif;
+    text-align: center;
+}
+section .texto1{
+    font-family: "Pathway Extreme", sans-serif;
+    text-align: center;
+}
+div .texto2{
+    width: 302px;
+    height: 175px;
+    text-align: center;
+    font-family: "Marcellus", serif;
+    font-size: 15px;
+    margin-left: 14px;
+}
+section .Ubicacion{
+    margin-left: 50px;
+}
+section .video{
+    margin-left: 50px;
+}
+section .comentarios{
+    margin-left: 20px;
+}
+section .ticket{
+    margin-left: 50px;
+    margin-top: 50px;
+    width: 333px;
+    height: 210px;
+    background-color: chocolate;
+    transition: 1s;
+}
+.ticket :hover{
+    background-color: rgb(181, 59, 59);
+    transform: scale(1.2);
+}
+footer{
+    width: 1366px;
+    height: 130px;
+    background-color: rgb(208, 216, 219);
+    background-image: url(../imagens/CodePen-Home-Social-Media-Footer.jpg);
+    background-size: 200px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 900px;
+}
